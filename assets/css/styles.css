@@ -135,7 +135,7 @@ a.dotted-link:hover {
 
 .header .profile-image {
   margin-right: 30px;
-  border: 2px solidrgb(68, 25, 146);
+  border: 2px solid rgb(68, 25, 146);
   transition: all .8s;
 }
 
