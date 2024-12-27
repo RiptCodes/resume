@@ -140,6 +140,7 @@ a.dotted-link:hover {
   transition: all .8s;
 }
 
+
 header .profile-image:hover {
     transform: scale(1.2);
 }
