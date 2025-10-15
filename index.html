@@ -1,377 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>Rayan Shamsi</title>
-  <!-- Meta -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="favicon.ico">
-
-  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet'
-    type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-  <!-- FontAwesome JS -->
-  <script defer src="assets/fontawesome/js/all.js"></script>
-
-  <!-- Global CSS -->
-  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-
-  <!-- Theme CSS -->
-  <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
-
+  <title>Rayan Shamsi | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-
 <body>
-  <!-- ******HEADER****** -->
-  <header class="header">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col">
-          <img class="profile-image img-fluid float-start rounded-circle" src="assets/images/Subject.png"
-            style="width: 180px; height: 180px;" alt="Rayan Shamsi" />
-          <div class="profile-content">
-            <h1 class="name">Rayan Shamsi</h1>
-            <h2 class="desc">Programmer & Student</h2>
-            <ul class="social list-inline">
-              <li class="list-inline-item linkedin"><a href="https://uk.linkedin.com/in/rayan-shamsi-003263250?trk=people-guest_people_search-card" target="_blank"><i
-                    class="fab fa-linkedin-in"></i></a></li>
-              <li class="list-inline-item replit">
-                <a href="https://replit.com/@RayanShamsi" target="_blank"><img src="assets/images/replit-white.svg"
-                    alt="Replit Profile" /></a>
-              </li>
-              <li class="list-inline-item youtube"><a href="https://www.youtube.com/@ImRipt" target="_blank"><i
-                    class="fab fa-youtube"></i></a></li>
-              <li class="list-inline-item github"><a href="https://github.com/RiptCodes" target="_blank"><i
-                    class="fab fa-github"></i></a>
-              </li>
-      
-              </li>
-            </ul>
+  <div class="container">
+    <header>
+      <div class="hero-top">
+        <div class="profile-box">
+          <img src="assets/images/dfd.PNG" alt="Rayan Shamsi" class="profile-img">
+          <div class="name-section">
+            <h1>Rayan Shamsi</h1>
+            <p>Programmer & Student</p>
           </div>
-          <!--//profile-->
         </div>
-        <!--//col-->
-        <div class="col-12 col-md-auto">
-          <div class="dark-mode-switch d-flex">
-            <div class="form-check form-switch mx-auto mx-md-0">
-              <input type="checkbox" class="form-check-input me-2" id="darkSwitch" />
-              <label class="custom-control-label" for="darkSwitch">Dark Mode</label>
-            </div>
-          </div>
-          <!--//dark-mode-switch-->
-          <a class="btn btn-cta-primary" href="resume.html"><i class="fa fa-file-lines"></i> Resume</a>
+        <div class="controls">
+          <button class="theme-btn" onclick="toggleTheme()">🌙 Dark Mode</button>
+          <a href="resume.html" class="resume-btn">📄 Resume</a>
         </div>
-        <!--//col-->
       </div>
-      <!--//row-->
-    </div>
-    <!--//container-->
-  </header>
-  <!--//header-->
+      <div class="socials">
+        <a href="https://uk.linkedin.com/in/rayan-shamsi-003263250" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://replit.com/@RayanShamsi" target="_blank" title="Replit"><i class="fas fa-code"></i></a>
+        <a href="https://www.youtube.com/@Riptanger" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com/@FreshlyAFK" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/RiptCodes" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </header>
 
-  <div class="container sections-wrapper py-5">
-    <div class="row">
-      <div class="primary col-lg-8 col-12">
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="box">
+        <p>I'm a passionate and motivated computer science student with a drive to build, learn, and grow. I constantly work on improving my craft, seek out challenges, and enjoy blending creativity with logic. Outside of coding, I love music and going to the gym.</p>
+      </div>
+    </section>
 
-        <section class="about section">
-          <div class="section-inner shadow-sm rounded">
-            <h2 class="heading">About Me</h2>
-            <div class="content">
-              <p>I am a hard working, passionate, motivated Student who likes to keep busy and explore new exciting things. I am constantly working to improve my work and consistently asking others for help and support. I love listening to music and going gym.</p>
-             
-            </div>
-            <!--//content-->
-          </div>
-          <!--//section-inner-->
-        </section>
-        <!--//section-->
-
-        <section class="experience section">
-          <div class="section-inner shadow-sm rounded">
-            <h2 class="heading">Work Experience</h2>
-            <div class="content">
-
-              
-
-              <div class="item row">
-                <a class="col-md-2 col-sm-2 col-4" href="https://www.michaelkors.co.uk/" target="_blank">
-                  <img class="img-fluid project-image rounded shadow-sm" src="assets/images/work_experience/mK.gif"
-                    height="50" alt="MK">
-                </a>
-                <div class="desc col-md-10 col-sm-10 col-xs-12">
-                  <h3 class="title">Stockroom Associate  - <span class="place"><a target="_blank" rel=""
-                        href="https://www.michaelkors.co.uk/">Michael Kors</a></span> <span class="year">(September  2021 - February 2022)</span></h3>
-                  <p>
-                  <ul>
-                    <li>Assisted and managed the stockroom and supplied customers with products needed for sale. Keeping good standards in the stockroom to ensure smooth running of the back of house. Assisting sales associates. </li>
-                    <li>Ensuring health and safety of fellow co-workers. <a
-                        
-                    </li>
-                    <li> Receive and store shipping materials to the stockroom weekly. Keeping up to date with health and safety protocols. </li>
-                  </ul>
-                  </p>
-                </div>
-
-                <!-- ERS Consultant -->
-                <div class="item row">
-                <a class="col-md-2 col-sm-2 col-4" href="https://www.erscltd.co.uk/" target="_blank">
-                  <img class="img-fluid project-image rounded shadow-sm" src="assets/images/work_experience/ers.png"
-                    height="50" alt="ERS">
-                </a>
-                <div class="desc col-md-10 col-sm-10 col-xs-12">
-                  <h3 class="title">Team Member- <span class="place"><a target="_blank" rel=""
-                        href="https://www.erscltd.co.uk/">ERS Consultants</a></span> <span class="year">(June 13 2022 - June 17 2022)</span></h3>
-                  <p>
-                  <ul>
-                    <li>Assisted and managed creations of buildings by using IES (integrated environment solutions)                 and CAD ( computer aided design) as well as, learning the process of calculating ratings that reflects the energy performance of a building while having the understanding in-depth knowledge of building services, energy and sustainability. </li>
-                   
-                    <li> Allowing a better way to solve the environmental issues with computational solutions.
-</li>
-                  </ul>
-                  </p>
-                </div>
-
-                
+    <section id="experience">
+      <h2>Work Experience</h2>
       
-              </div>
-              <!--//content-->
-            </div>
-            <!--//section-inner-->
-        </section>
-        <!--//section-->
-
-        <section class="projects section">
-          <div class="section-inner shadow-sm rounded">
-            <h2 class="heading">Projects</h2>
-            <div class="row">
-
-              <div class="col col-12 col-md-5 rounded">
-                <h5 class="title">JQuery Simon Game </h5>
-                <p class="summary">Developed an intuitive memory game that can be customised.</p>
-                <p><a class="more-link" href="https://github.com/RiptCodes/Simon-Game" target="_blank"><i
-                      class="fas fa-external-link-alt"></i> Visit Github Repo</a></p>
-              </div>
-              <div class="col col-12 col-md-5 rounded">
-                <h5 class="title">Discord Music Bot </h5>
-                <p class="summary">Developed a chatbot & musicbot which scrapes the internet for the requested songs and returns a queue and song/playlist.</p>
-                <p><a class="more-link" href="https://github.com/RiptCodes/RiptsManPos" target="_blank"><i
-                      class="fas fa-external-link-alt"></i> Visit Github Repo</a></p>
-              </div>
-              <div class="col col-12 col-md-5 rounded">
-                <h5 class="title">2D Checkers Board Game 
-                </h5>
-                <p class="summary">Created and documented a 2D board game in 3 months. </p>
-                <p><a class="more-link" href="https://replit.com/@RayanShamsi/Checkers#main.py"
-                    target="_blank"><i class="fas fa-external-link-alt"></i> Visit Replit </a></p><p><a class="more-link" href="https://docs.google.com/document/d/1Vp1rrZXGfjUt3LVz0mZu2mElJc008fEp/edit?usp=sharing&ouid=101297111496589612035&rtpof=true&sd=true"
-                    target="_blank"><i class="fa fa-file-lines"></i> Documentation</a></p>
-              </div>
-              <div class="col col-12 col-md-5 rounded">
-                <h5 class="title">2D fighter Game 
-                </h5>
-                <p class="summary">This project involves a game I made on a 2D arcade based fighter using Online resources such as tutorials.</p>
-                <p><a class="more-link" href="https://github.com/RiptCodes/2dFighter" target="_blank"><i
-                      class="fas fa-external-link-alt"></i> Visit Github Repo</a></p>
-              </div>
-              <div class="col col-12 col-md-5 rounded">
-                <h5 class="title">
-                  Reddit Scraper
-                </h5>
-                <p class="summary">Features chromium and scrapes the reddit website to fulfil the users needs.</p>
-                <p><a class="more-link" href="https://github.com/RiptCodes/RedditBot" target="_blank"><i
-                        class="fas fa-external-link-alt"></i> Visit Github Repo</a></p>
-              </div>
-              <!--//item-->
-              
-            </div>
-            <!--//content-->
-          </div>
-          <!--//section-inner-->
-        </section>
-        <!--//section-->
-
+      <div class="work-item">
+        <a href="https://www.michaelkors.co.uk/" target="_blank">
+          <img src="assets/images/work_experience/mK.gif" alt="Michael Kors" class="work-logo">
+        </a>
+        <div class="work-details">
+          <h3>Stockroom Associate – Michael Kors</h3>
+          <span class="work-date">September 2021 – February 2022</span>
+          <ul>
+            <li>Managed the stockroom and supplied products for sale.</li>
+            <li>Maintained health and safety standards.</li>
+            <li>Received and stored weekly shipping materials efficiently.</li>
+          </ul>
+        </div>
       </div>
-      <!--//primary-->
-      <div class="secondary col-lg-4 col-12">
 
-        <aside class="info aside section">
-          <div class="section-inner shadow-sm rounded">
-            <div class="content">
-              <ul class="list-unstyled">
-                <li><i class="fas fa-map-marker-alt"></i><span class="sr-only">Location:</span>Oxford, United Kingdom</li>
-                <li><i class="fas fa-envelope"></i><span class="sr-only">Email:</span><a
-                    href="#">raysh2005@outlook.com</a></li>
-              </ul>
-            </div>
-            <!--//content-->
-          </div>
-          <!--//section-inner-->
-        </aside>
-        <!--//aside-->
-
-        <aside class="favorites aside section">
-          <div class="section-inner shadow-sm rounded">
-            <div class="content">
-              <ul class="list-unstyled">
-                <li><i class="fa-brands fa-spotify"></i>Top Albums</li>
-                <div class="row">
-                  <div class="col col-md-3 col-xs-5">
-                    <a href="https://open.spotify.com/album/6tkjU4Umpo79wwkgPMV3nZ?si=4etiNWpsSdiMoiC68_Symg" target="_blank"><img height="80px"
-                        src="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Goodbye_%26_Good_Riddance_Album_Cover.jpg/220px-Goodbye_%26_Good_Riddance_Album_Cover.jpg"
-                        alt="Goodbye & Good Riddance" /></a>
-                  </div>
-                  <div class="col col-md-3 col-xs-5">
-                    <a href="https://open.spotify.com/album/4SZko61aMnmgvNhfhgTuD3?si=foERvQLDQACjwCmlWbETKg" target="_blank"><img height="80px"
-                        src="https://i.ibb.co/zJr4vB3/download.jpg"
-                        alt="Graduation" /></a>
-                  </div>
-                  <div class="col col-md-3 col-xs-5">
-                    <a href="https://open.spotify.com/album/4JAvwK4APPArjIsOdGoJXX?si=SfE7NHvWTSW7g6N3lZuVdg" target="_blank"><img height="80px"
-                        src="data:image/jpeg;base64,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" alt="The Off Season" /></a>
-                  </div>
-                </div>
-                <li><i class="fa-solid fa-gamepad"></i>Rocket League Teams I support</li>
-                <div class="row">
-                  <div class="col col-md-2 col-xs-3">
-                    <a href="https://liquipedia.net/rocketleague/Team_Vitality"
-                      target="_blank"><img height="80px"
-                        src="https://vitality.gg/wp-content/themes/vitality/assets/images/logo.svg?x66378"
-                        alt="Team Vitality" /></a>
-                  </div>
-                  <div class="col col-md-2 col-xs-3">
-                    <a href="https://liquipedia.net/rocketleague/NRG" target="_blank"><img height="80px"
-                        src="data:image/png;base64,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"
-                        alt="NRG" /></a>
-                  </div>
-             
-                </div>
-                <div class="row">
-                  <li><i class="fa-solid fa-book"></i>Top Audio Books</li>
-                  <div class="col col-md-3 col-xs-5">
-                    
-                    <a href="https://www.audible.co.uk/pd/Monsters-and-How-to-Tame-Them-Audiobook/B09M1V9VL3?qid=1689095412&sr=1-2&ref=a_search_c3_lProduct_1_2&pf_rd_p=c6e316b8-14da-418d-8f91-b3cad83c5183&pf_rd_r=J1SY5CE8TBJ7RXG0TMYH&pageLoadId=9cRdfdJjBAD66v0H&creativeId=41e85e98-10b8-40e2-907d-6b663f04a42d" target="_blank"><img height="80px"
-                        src="https://variety.com/wp-content/uploads/2022/08/KevinHart_Monsters_Cover.jpg"
-                        alt="kevin" /></a>
-                  </div>
-                  <div class="col col-md-3 col-xs-5">
-                    <a href="https://play.google.com/store/audiobooks/details/Total_Recall_My_Unbelievably_True_Life_Story?id=AQAAAIBCfgv-WM&hl=en_GB&gl=US&pli=1" target="_blank"><img height="80px"
-                        src="https://play-lh.googleusercontent.com/z1lHEHBVHqxrI8P8_S-6tonZiZuF2OHLpgs-7BjDFbKF0NMsS7KsVn8coDlrpI49FcZ84Gu5TYMyTw=w240-h345-rw"
-                        alt="Arnold" /></a>
-                  </div>
-                
-
-              </ul>
-            </div>
-            <!--//content-->
-          </div>
-          <!--//section-inner-->
-        </aside>
-        <!--//aside-->
-
-        <aside class="education aside section">
-          <div class="section-inner shadow-sm rounded">
-            <h2 class="heading">Education</h2>
-            <div class="content">
-              <div class="item">
-                <h3 class="title"><i class="fas fa-graduation-cap"></i>University</h3>
-                <h4 class="university">Computer Science</h4>
-                <h4 class="university">University of Reading<span
-                        class="year"> (2023-2026)</span></h4>
-              </div>
-              <div class="item">
-                <h3 class="title"><i class="fas fa-graduation-cap"></i>A level</h3>
-                <h4 class="university">Computer Science, Maths, Economics</h4>
-                <h4 class="university">The Cherwell School<span
-                    class="year"> (2023)</span></h4>
-              </div>
-              <!--//item-->
-              <div class="item">
-                  <h3 class="title"><i class="fa-brands fa-python"></i> UDEMY </h3>
-                  <h4 class="university">Online<span
-              </div>
-             
-            </div>
-            <!--//content-->
-          </div>
-          <!--//section-inner-->
-        </aside>
-        <!--//section-->
-
-        <aside class="skills aside section">
-          <div class="section-inner shadow-sm rounded">
-            <h2 class="heading">Skills</h2>
-            <div class="content">
-              <p class="intro">
-                The following list represents the strongest skills in which I have the most experience and knowledge. To
-                see my full list of skills, check out <a href=resume.html>my resume</a>.</p>
-
-              <div class="skillset">
-
-                
-                <div class="item">
-                  <h3 class="level-title">Python</h3>
-                </div>
-                <!--//item-->
-                <div class="item">
-                  <h3 class="level-title">HTML/CSS & Bootstrap</h3>
-                </div>
-                <div class="item">
-                  <h3 class="level-title">C/C++</h3>
-                </div>
-                <!--//item-->
-                <!--//item-->
-                <div class="item">
-                  <h3 class="level-title">NodeJS</h3>
-                </div>
-                <!--//item-->
-                <div class="item">
-                  <h3 class="level-title">Object-Oriented Programming</h3>
-                </div>
-                <!--//item-->
-                <div class="item">
-                  <h3 class="level-title">Esports</h3>
-                </div>
-                <!--//item-->
-                <div class="item">
-                  <h3 class="level-title">Video Editing & Uploading</h3>
-                </div>
-                <!--//item-->
-                 
-               
-              </div>
-            </div>
-            <!--//content-->
-          </div>
-          <!--//section-inner-->
-        </aside>
-        <!--//section-->
-
+      <div class="work-item">
+        <a href="https://www.erscltd.co.uk/" target="_blank">
+          <img src="assets/images/work_experience/ers.png" alt="ERS Consultants" class="work-logo">
+        </a>
+        <div class="work-details">
+          <h3>Team Member – ERS Consultants</h3>
+          <span class="work-date">June 13 2022 – June 17 2022</span>
+          <ul>
+            <li>Worked with IES and CAD for energy performance simulations.</li>
+            <li>Gained in-depth knowledge of sustainability and building services.</li>
+            <li>Contributed to computational environmental solutions.</li>
+          </ul>
+        </div>
       </div>
-      <!--//secondary-->
-    </div>
-    <!--//row-->
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>JQuery Simon Game</h3>
+          <p>Developed an intuitive memory game that can be customised. <br> <br> <br> <br>  <br> <br> </p>
+          <a href="https://github.com/RiptCodes/Simon-Game" target="_blank">GitHub →</a>
+        </div>
+
+        <div class="project">
+          <h3>Discord Music Bot</h3>
+          <p>Scrapes the internet for requested songs and plays them in a queue using Discord.js. Implemented other features such as gambling bot and embedded it into a singular bot before the migration to a higher discord python version in late 2024. (deprecated code) </p>
+          <a href="https://github.com/RiptCodes/RiptsManPos" target="_blank">GitHub →</a>
+        </div>
+
+        <div class="project">
+          <h3><b>2D Checkers Board Game</b></h3>
+          <p>Created and documented a 2D board game in 3 months.</p>
+          <a href="https://replit.com/@RayanShamsi/Checkers#main.py" target="_blank">Replit →</a>
+          <a href="https://docs.google.com/document/d/1Vp1rrZXGfjUt3LVz0mZu2mElJc008fEp/edit?usp=sharing" target="_blank">Docs →</a>
+        </div>
+
+        <div class="project">
+          <h3>2D Fighter Game</h3>
+          <p>Arcade-based fighter game created using online tutorials.</p>
+          <a href="https://github.com/RiptCodes/2dFighter" target="_blank">GitHub →</a>
+        </div>
+
+        <div class="project">
+          <h3>Reddit Scraper</h3>
+          <p>Uses Chromium to scrape Reddit content to meet user needs. <br> <br> <br> <br>  <br></p>
+
+          <a href="https://github.com/RiptCodes/RedditBot" target="_blank">GitHub →</a>
+        </div>
+
+        <div class="project">
+          <h3>QR Generator (group) </h3>
+          <p>Generates QR codes given links, text, and other data. Uses different masking patterns to enhance the QR code's design. <br><br>
+            My Role: Develop the 7 different masking patterns make it scannable.
+          </p>
+          <a href="https://github.com/RiptCodes/Group-QR-GENERATOR-Reupload" target="_blank">GitLab →</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- WEBSITES -->
+     <section id="websites">
+      <h2>Websites</h2>
+      <div class="websites">
+        <div class="website">
+          <h3>BRiC Cancer Research Centre</h3>
+          <p> Developed a website that needed redesigning and SEO optimisation. (early 2024) </p>
+          <a href="https://briccentre.co.uk/" target="_blank">BRiC →</a>
+        </div>
+
+        <div class="website">
+          <h3>Legal Dubai Company</h3>
+          <p>Helped Develop a website for a legal company in Dubai, focusing on user experience digital service design.</p>
+          <a href="https://ahlegal.co/" target="_blank">Link →</a>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <div class="contact-section">
+        <div class="contact-box">
+          <h3>Contact Info</h3>
+          <ul class="contact-list">
+            <li>📍 Oxford, United Kingdom</li>
+            <li>✉️ <a href="mailto:raysh2005@outlook.com">raysh2005@outlook.com</a></li>
+          </ul>
+        </div>
+
+        <div class="contact-box">
+          <h3>Top Albums</h3>
+          <div class="albums">
+            <a href="https://open.spotify.com/album/6tkjU4Umpo79wwkgPMV3nZ" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Goodbye_%26_Good_Riddance_Album_Cover.jpg" alt="Goodbye & Good Riddance" class="album-img">
+            </a>
+            <a href="https://open.spotify.com/album/4SZko61aMnmgvNhfhgTuD3" target="_blank">
+              <img src="https://i.ibb.co/zJr4vB3/download.jpg" alt="Graduation" class="album-img">
+            </a>
+            <a href="https://open.spotify.com/album/4JAvwK4APPArjIsOdGoJXX" target="_blank">
+              <img src="https://upload.wikimedia.org/wikipedia/en/6/64/Utopia_by_Travis_Scott.png" alt="Utopia" class="album-img">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Rayan Shamsi. All rights reserved.</p>
+    </footer>
   </div>
-  <!--//masonry-->
 
-  <!-- ******FOOTER****** -->
-  <footer class="footer">
-    <div class="container text-center">
-      <small class="copyright">Copyright © 2023 Rayan Shamsi | <a href="https://replit.com/@RayanShamsi" target="_blank"
-          style="color: lightblue">Built, Sourced, and Hosted on Git</a></small>
-    </div>
-    <!--//container-->
-  </footer>
-  <!--//footer-->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
 
-  <!-- Javascript -->
-  <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
-  <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="assets/plugins/vanilla-rss/dist/rss.global.min.js"></script>
-  <script type="text/javascript" src="assets/plugins/dark-mode-switch/dark-mode-switch.min.js"></script>
-  <!-- custom js -->
-  <script type="text/javascript" src="assets/js/main.js"></script>
+    function toggleTheme() {
+      document.body.classList.toggle('dark');
+    }
+  </script>
 </body>
-
 </html>
